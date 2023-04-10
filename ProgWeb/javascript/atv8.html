@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/atv8.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript" src="js/atv8.js" defer></script>
+    <header class="menu">
+        <button id="btnMenu" class="btnMenu" onclick="menu()">Menu</button>
+        <div class="menuDropdown" id="menuDropdown">
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </div>
+    </header><br>
+    <center>
+        <div id="divForm" class="divForm">
+            <div class="divLogin">
+                <label id="login" class="login">Login</label>
+            </div><br>
+            <form class="form">
+                <label for="lblUsuario" id="lblUsuario" class="lblUsuario">Usuário:</label><br>
+                <input type="text" id="txtUsuario" class="txtUsuario"><br>
+                <spam class="lblUsuAut" id="lblUsuAut">Usuário deve ser preenchido!</spam><br>
+    
+
+                <label for="lblSenha" id="lblSenha" class="lblSenha">Senha:</label><br>
+                <input type="text" id="txtSenha" class="txtSenha"><br>
+                <spam class="lblSenAut" id="lblSenAut">Senha deve ser preenchida!</spam><br>
+                <spam class="lblSenNum" id="lblSenNum">Senha deve entre 6 a 30 caracteres!</spam><br>
+                
+            </form>
+            <button id="btnAut" class="btnAut" onclick="autentication()">Autenticar</button>
+        </div> 
+    </center> 
+</body>
+</html>
